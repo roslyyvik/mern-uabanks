@@ -1,0 +1,22 @@
+.btnScroll {
+  position: fixed;
+  padding: 0.15rem 0.33rem;
+  font-size: 20px;
+  bottom: 20px;
+  right: 20px;
+  background: transparent;
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+.btnScroll svg {
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 1385px) {
+  .btnScroll {
+    font-size: 25px;
+    bottom: 40px;
+    right: 40px;
+  }
+}

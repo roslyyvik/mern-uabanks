@@ -1,0 +1,679 @@
+[{
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "14360570",
+  "SHORTNAME": "АТ КБ ПРИВАТБАНК",
+  "NKB": "046",
+  "P_IND": "01001",
+  "NP": "Київ",
+  "ADRESS": "вул. Грушевського, 1Д",
+  "D_OPEN": "19.03.1992",
+  "MFO": "335306",
+  "group": "Банки з державною часткою",
+  "SVB": "Системно важливі банки",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 656975376,
+  "liabilities": 402757072,
+  "capitaltotal": 71463071,
+  "profittotal": 6284002
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "23697280",
+  "SHORTNAME": "АБ 'УКРГАЗБАНК'",
+  "NKB": "274",
+  "P_IND": "03087",
+  "NP": "Київ",
+  "ADRESS": "вул. Єреванська, 1",
+  "D_OPEN": "21.07.1993",
+  "MFO": "320478",
+  "group": "Банки з державною часткою",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 139671406,
+  "liabilities": 119965562,
+  "capitaltotal": 8293471,
+  "profittotal": -3198847
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "09807862",
+  "SHORTNAME": "АТ 'КРЕДОБАНК'",
+  "NKB": "088",
+  "P_IND": "79026",
+  "NP": "Львів",
+  "ADRESS": "вул. Сахарова, 78",
+  "D_OPEN": "31.03.1992",
+  "MFO": "325365",
+  "group": "Банки іноземних банківських груп",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 33987404,
+  "liabilities": 28328676,
+  "capitaltotal": 4024942,
+  "profittotal": 58354
+}, {
+
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14282829",
+  "SHORTNAME": "АТ 'ПУМБ'",
+  "NKB": "115",
+  "P_IND": "04070",
+  "NP": "Київ",
+  "ADRESS": "вул. Андріївська, 4",
+  "D_OPEN": "23.12.1991",
+  "MFO": "334851",
+  "group": "Банки з приватним капіталом",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 109916179,
+  "liabilities": 87578098,
+  "capitaltotal": 12639902,
+  "profittotal": 218635
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "00032112",
+  "SHORTNAME": "АТ 'Укрексімбанк'",
+  "NKB": "002",
+  "P_IND": "03150",
+  "NP": "Київ",
+  "ADRESS": "вул. Антоновича, 127",
+  "D_OPEN": "23.01.1992",
+  "MFO": "322313",
+  "group": "Банки з державною часткою",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 228608406,
+  "liabilities": 195272926,
+  "capitaltotal": 10021947,
+  "profittotal": -2536517
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "14360920",
+  "SHORTNAME": "АТ 'ПРАВЕКС БАНК'",
+  "NKB": "153",
+  "P_IND": "01021",
+  "NP": "Київ",
+  "ADRESS": "вул. Кловський узвіз, 9/2",
+  "D_OPEN": "29.12.1992",
+  "MFO": "380838",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 8864010,
+  "liabilities": 7387865,
+  "capitaltotal": 1396121,
+  "profittotal": -80375
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "36520434",
+  "SHORTNAME": "АТ 'Дойче Банк ДБУ'",
+  "NKB": "407",
+  "P_IND": "01015",
+  "NP": "Київ",
+  "ADRESS": "вул. Лаврська, буд. 20",
+  "D_OPEN": "19.06.2009",
+  "MFO": "380731",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 4657295,
+  "liabilities": 4287129,
+  "capitaltotal": 368486,
+  "profittotal": 34157
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21685485",
+  "SHORTNAME": "АТ 'СІТІБАНК'",
+  "NKB": "297",
+  "P_IND": "03150",
+  "NP": "Київ",
+  "ADRESS": "вул. Ділова, 16-Г",
+  "D_OPEN": "11.05.1998",
+  "MFO": "300584",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 38081799,
+  "liabilities": 33829040,
+  "capitaltotal": 3315585,
+  "profittotal": 235591
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21684818",
+  "SHORTNAME": "АТ 'ІНГ Банк Україна'",
+  "NKB": "295",
+  "P_IND": "04070",
+  "NP": "Київ",
+  "ADRESS": "вул. Спаська, 30-А",
+  "D_OPEN": "15.12.1997",
+  "MFO": "300539",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 12527173,
+  "liabilities": 8323159,
+  "capitaltotal": 3665973,
+  "profittotal": -191790
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "09806443",
+  "SHORTNAME": "АТ 'ТАСКОМБАНК'",
+  "NKB": "062",
+  "P_IND": "01032",
+  "NP": "Київ",
+  "ADRESS": "вул. Симона Петлюри, 30",
+  "D_OPEN": "21.10.1991",
+  "MFO": "339500",
+  "group": "Банки з приватним капіталом",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 30370056,
+  "liabilities": 25340692,
+  "capitaltotal": 3152961,
+  "profittotal": 12851
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "21580639",
+  "SHORTNAME": "АТ 'КІБ'",
+  "NKB": "240",
+  "P_IND": "04053",
+  "NP": "Київ",
+  "ADRESS": "вул. Бульварно-Кудрявська, 6",
+  "D_OPEN": "03.12.1993",
+  "MFO": "322540",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 8044662,
+  "liabilities": 7331619,
+  "capitaltotal": 481999,
+  "profittotal": 60884
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "09801546",
+  "SHORTNAME": "АТ АКБ 'Львів'",
+  "NKB": "091",
+  "P_IND": "79008",
+  "NP": "Львів",
+  "ADRESS": "вул.Сербська, 1",
+  "D_OPEN": "14.10.1991",
+  "MFO": "325268",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 6668156,
+  "liabilities": 5891009,
+  "capitaltotal": 671228,
+  "profittotal": 45099
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "33695095",
+  "SHORTNAME": "АТ 'БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ'",
+  "NKB": "320",
+  "P_IND": "04119",
+  "NP": "Київ",
+  "ADRESS": "вул. Юрія Іллєнка, 83-Д",
+  "D_OPEN": "09.08.2005",
+  "MFO": "380281",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 3387904,
+  "liabilities": 2333639,
+  "capitaltotal": 666198,
+  "profittotal": 22613
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "23494714",
+  "SHORTNAME": "АКЦІОНЕРНЕ ТОВАРИСТВО 'СЕНС БАНК'",
+  "NKB": "272",
+  "P_IND": "03150",
+  "NP": "Київ",
+  "ADRESS": "вулиця Велика Васильківська, 100",
+  "D_OPEN": "24.03.1993",
+  "MFO": "300346",
+  "group": "Банки іноземних банківських груп",
+  "SVB": "Системно важливі банки",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 104026470,
+  "liabilities": 78614300,
+  "capitaltotal": 10689371,
+  "profittotal": -2348501
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14361575",
+  "SHORTNAME": "АТ 'КРЕДІ АГРІКОЛЬ БАНК'",
+  "NKB": "171",
+  "P_IND": "01004",
+  "NP": "Київ",
+  "ADRESS": "вул. Пушкінська, 42/4",
+  "D_OPEN": "10.02.1993",
+  "MFO": "300614",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 64285520,
+  "liabilities": 54712173,
+  "capitaltotal": 6148117,
+  "profittotal": 30681
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "19356610",
+  "SHORTNAME": "Полікомбанк",
+  "NKB": "049",
+  "P_IND": "14013",
+  "NP": "Чернігів",
+  "ADRESS": "вул. О. Молодчого, буд. 46",
+  "D_OPEN": "18.08.1994",
+  "MFO": "353100",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 862118,
+  "liabilities": 437912,
+  "capitaltotal": 285135,
+  "profittotal": 461
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "09807750",
+  "SHORTNAME": "АТ 'УКРСИББАНК'",
+  "NKB": "136",
+  "P_IND": "04070",
+  "NP": "Київ",
+  "ADRESS": "вулиця Андріївська, 2/12",
+  "D_OPEN": "28.10.1991",
+  "MFO": "351005",
+  "group": "Банки іноземних банківських груп",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 91476761,
+  "liabilities": 78576076,
+  "capitaltotal": 10269509,
+  "profittotal": 724089
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "20034231",
+  "SHORTNAME": "АТ 'ПІРЕУС БАНК МКБ'",
+  "NKB": "251",
+  "P_IND": "04070",
+  "NP": "Київ",
+  "ADRESS": "вул. Іллінська, 8",
+  "D_OPEN": "31.01.1994",
+  "MFO": "300658",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 5111724,
+  "liabilities": 4321639,
+  "capitaltotal": 621118,
+  "profittotal": -77521
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "20953647",
+  "SHORTNAME": "Акціонерний банк 'Південний'",
+  "NKB": "106",
+  "P_IND": "65059",
+  "NP": "Одеса",
+  "ADRESS": "вул. Краснова, 6/1",
+  "D_OPEN": "03.12.1993",
+  "MFO": "328209",
+  "group": "Банки з приватним капіталом",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 36365571,
+  "liabilities": 29991862,
+  "capitaltotal": 4103844,
+  "profittotal": 309766
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "35960913",
+  "SHORTNAME": "ПуАТ 'КБ 'АКОРДБАНК'",
+  "NKB": "392",
+  "P_IND": "04136",
+  "NP": "Київ",
+  "ADRESS": "вул.Стеценко, буд. 6",
+  "D_OPEN": "04.06.2008",
+  "MFO": "380634",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 12718952,
+  "liabilities": 11629484,
+  "capitaltotal": 391317,
+  "profittotal": 3796
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14305909",
+  "SHORTNAME": "АТ 'Райффайзен Банк Аваль'",
+  "NKB": "036",
+  "P_IND": "01011",
+  "NP": "Київ",
+  "ADRESS": "вулиця Лєскова, буд. 9",
+  "D_OPEN": "27.03.1992",
+  "MFO": "300335",
+  "group": "Банки іноземних банківських груп",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 148240165,
+  "liabilities": 127374078,
+  "capitaltotal": 16123809,
+  "profittotal": 628486
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "00032129",
+  "SHORTNAME": "АТ 'Ощадбанк'",
+  "NKB": "006",
+  "P_IND": "01023",
+  "NP": "Київ",
+  "ADRESS": "вул. Госпітальна, 12г",
+  "D_OPEN": "31.12.1991",
+  "MFO": "300465",
+  "group": "Банки з державною часткою",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 90503695,
+  "liabilities": 211432283,
+  "capitaltotal": 17407482,
+  "profittotal": -4042913
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "26237202",
+  "SHORTNAME": "ПАТ 'БАНК ВОСТОК'",
+  "NKB": "305",
+  "P_IND": "49051",
+  "NP": "Дніпро",
+  "ADRESS": "вул.Курсантська, 24",
+  "D_OPEN": "17.10.2002",
+  "MFO": "307123",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 18033479,
+  "liabilities": 16065601,
+  "capitaltotal": 1371607,
+  "profittotal": 106036
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21133352",
+  "SHORTNAME": "АТ 'УНІВЕРСАЛ БАНК'",
+  "NKB": "242",
+  "P_IND": "04114",
+  "NP": "Київ",
+  "ADRESS": "вул. Автозаводська, 54/19",
+  "D_OPEN": "20.01.1994",
+  "MFO": "322001",
+  "group": "Банки з приватним капіталом",
+  "SVB": "Системно важливі банки",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 64682088,
+  "liabilities": 51432631,
+  "capitaltotal": 6925504,
+  "profittotal": 250103
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "37515069",
+  "SHORTNAME": "АТ 'СЕБ КОРПОРАТИВНИЙ БАНК'",
+  "NKB": "455",
+  "P_IND": "01001",
+  "NP": "Київ",
+  "ADRESS": "вул. Михайлівська, 7",
+  "D_OPEN": "19.01.2011",
+  "MFO": "380797",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 2738211,
+  "liabilities": 2020324,
+  "capitaltotal": 716269,
+  "profittotal": 29886
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14360080",
+  "SHORTNAME": "АТ 'А - БАНК'",
+  "NKB": "096",
+  "P_IND": "49074",
+  "NP": "Дніпро",
+  "ADRESS": "вул. Батумська, 11",
+  "D_OPEN": "30.10.1992",
+  "MFO": "307770",
+  "group": "Банки з приватним капіталом",
+  "SVB": "Системно важливі банки",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 17356999,
+  "liabilities": 11989107,
+  "capitaltotal": 2201671,
+  "profittotal": 6202
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21650966",
+  "SHORTNAME": "ПАТ 'МТБ БАНК'",
+  "NKB": "105",
+  "P_IND": "68003",
+  "NP": "Чорноморськ",
+  "ADRESS": "проспект Миру, 28",
+  "D_OPEN": "05.11.1993",
+  "MFO": "328168",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 11356432,
+  "liabilities": 9909596,
+  "capitaltotal": 981032,
+  "profittotal": 490
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "34575675",
+  "SHORTNAME": "АТ 'КРЕДИТВЕСТ БАНК'",
+  "NKB": "331",
+  "P_IND": "01030",
+  "NP": "Київ",
+  "ADRESS": "вул. Леонтовича, 4, літера 'А, А1'",
+  "D_OPEN": "04.10.2006",
+  "MFO": "380441",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 1886940,
+  "liabilities": 1379069,
+  "capitaltotal": 467264,
+  "profittotal": 1240
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "35591059",
+  "SHORTNAME": "АТ 'КБ 'ГЛОБУС'",
+  "NKB": "386",
+  "P_IND": "04073",
+  "NP": "Київ",
+  "ADRESS": "пров.Куренівський, б.19/5",
+  "D_OPEN": "29.11.2007",
+  "MFO": "380526",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 6742806,
+  "liabilities": 5748583,
+  "capitaltotal": 630329,
+  "profittotal": 1049
+}, {
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21685166",
+  "SHORTNAME": "АТ 'ОТП БАНК'",
+  "NKB": "296",
+  "P_IND": "01033",
+  "NP": "Київ",
+  "ADRESS": "вул. Жилянська, 43",
+  "D_OPEN": "02.03.1998",
+  "MFO": "300528",
+  "group": "Банки іноземних банківських груп",
+  "SVB": "Системно важливі банки",
+  "assetstotal": 80400877,
+  "liabilities": 62973498,
+  "capitaltotal": 10188034,
+  "profittotal": -783063
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14352406",
+  "SHORTNAME": "АТ 'БАНК КРЕДИТ ДНІПРО'",
+  "NKB": "270",
+  "P_IND": "01033",
+  "NP": "Київ",
+  "ADRESS": "вул. Жилянська, буд.32",
+  "D_OPEN": "07.07.1993",
+  "MFO": "305749",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 25508921,
+  "liabilities": 19703666,
+  "capitaltotal": 2130780,
+  "profittotal": 383033
+}, {
+  "indicators": [],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "21677333",
+  "SHORTNAME": "АТ 'ПРОКРЕДИТ БАНК'",
+  "NKB": "298",
+  "P_IND": "03115",
+  "NP": "Київ",
+  "ADRESS": "проспект Перемоги, 107-А",
+  "D_OPEN": "28.12.2000",
+  "MFO": "320984",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 33672420,
+  "liabilities": 28373639,
+  "capitaltotal": 3104188,
+  "profittotal": -906984
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "34186061",
+  "SHORTNAME": "АТ 'БАНК ФОРВАРД'",
+  "NKB": "325",
+  "P_IND": "01032",
+  "NP": "Київ",
+  "ADRESS": "вул. Саксаганського, будинок 105.",
+  "D_OPEN": "28.02.2006",
+  "MFO": "380418",
+  "group": "Банки іноземних банківських груп",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 2557440,
+  "liabilities": 1778964,
+  "capitaltotal": 532231,
+  "profittotal": 58198
+},{
+  "indicators": [
+
+  ],
+  "normatives": [
+
+  ],
+  "KOD_EDRPOU": "14360506",
+  "SHORTNAME": "АТ 'БАНК АЛЬЯНС'",
+  "NKB": "029",
+  "P_IND": "04053",
+  "NP": "Київ",
+  "ADRESS": "вулиця Січових Стрільців, будинок 50",
+  "D_OPEN": "10.03.1992",
+  "MFO": "300119",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 11568305,
+  "liabilities": 10024271,
+  "capitaltotal": 872615,
+  "profittotal": -40487
+}, {
+  "indicators": [
+
+  ],
+  "KOD_EDRPOU": "19390819",
+  "SHORTNAME": "АТ 'Ідея Банк'",
+  "NKB": "142",
+  "P_IND": "79008",
+  "NP": "Львів",
+  "ADRESS": "вул. Валова,11",
+  "D_OPEN": "22.10.1991",
+  "MFO": "336310",
+  "group": "Банки з приватним капіталом",
+  "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
+  "assetstotal": 9820429,
+  "liabilities": 3968475,
+  "capitaltotal": 1535264,
+  "profittotal": 72149
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "34576883",
+  "SHORTNAME": "АТ 'КРЕДИТ ЄВРОПА БАНК'",
+  "NKB": "329",
+  "P_IND": "01601",
+  "NP": "Київ",
+  "ADRESS": "вул. Мечнікова, буд.2",
+  "D_OPEN": "28.08.2006",
+  "MFO": "380366",
+  "group": "Банки іноземних банківських груп",
+  "assetstotal": 843472,
+  "liabilities": 335202,
+  "capitaltotal": 346992,
+  "profittotal": -80188
+}, {
+  "indicators": [],
+  "normatives": [],
+  "KOD_EDRPOU": "35810511",
+  "SHORTNAME": "АТ 'МІБ'",
+  "NKB": "389",
+  "P_IND": "01015",
+  "NP": "Київ",
+  "ADRESS": "вул. Лаврська, 16",
+  "D_OPEN": "11.03.2008",
+  "MFO": "380582",
+  "group": "Банки з приватним капіталом",
+  "assetstotal": 6777133,
+  "liabilities": 5100447,
+  "capitaltotal": 425248,
+  "profittotal": -12655
+}]
