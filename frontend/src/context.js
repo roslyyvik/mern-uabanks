@@ -45,7 +45,7 @@ const AppProvider = ({children}) => {
   const getBanks = useCallback( async () => {
     setIsLoading(true)
     try {
-      const response = await axios(`http://localhost:5500/api/v1/banks`)
+      const response = await axios(`/api/v1/banks`)
       const { banks } = response.data
       if(banks){
         const newBanks = banks.map((item) => {
