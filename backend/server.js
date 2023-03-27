@@ -61,6 +61,8 @@ app.use(cors()
 app.use(xss())
 app.use(mongoSanitize())
 
+connectDB()
+
 app.use(express.json())
 app.use(cookieParser(process.env.JWT_SECRET));
 
@@ -84,7 +86,7 @@ const port = process.env.PORT || 5500
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URL)
+    // await connectDB(process.env.MONGO_URL)
     app.listen(port, () => {
       console.log(`Server is listening on port ${port}...`);
     })
