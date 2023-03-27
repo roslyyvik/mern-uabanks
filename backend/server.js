@@ -31,19 +31,6 @@ const reviewRouter = require('./routes/reviewsRoutes')
 const userRouter = require('./routes/userRoutes')
 const indicatorRouter = require('./routes/indicatorRoutes')
 
-// Serve frontend
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../frontend/build')));
-
-  app.get('*', (req, res) =>
-    res.sendFile(
-      path.resolve(__dirname, '../', 'frontend', 'build', 'index.html')
-    )
-  );
-} else {
-  app.get('/', (req, res) => res.send('Please set to production'));
-}
-
 // middleware
 const notFoundMiddleware = require('./middleware/not-found.js')
 const errorHandlerMiddleware = require('./middleware/error-handler.js')
@@ -75,9 +62,18 @@ app.use('/api/v1/reviews', reviewRouter)
 app.use('/api/v1/users', userRouter)
 app.use('/api/v1/indicators', indicatorRouter)
 
-app.get('/', (req, res) => {
-  res.send('Server is Started!')
-})
+// Serve frontend
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../frontend/build')));
+
+  app.get('*', (req, res) =>
+    res.sendFile(
+      path.resolve(__dirname, '../', 'frontend', 'build', 'index.html')
+    )
+  );
+} else {
+  app.get('/', (req, res) => res.send('Please set to production'));
+}
 
 app.use(notFoundMiddleware)
 app.use(errorHandlerMiddleware)
