@@ -42,60 +42,60 @@ const AppProvider = ({children}) => {
     //eslint-disable-next-line
   },[])
 
-  // const getBanks = useCallback( async () => {
-  //   setIsLoading(true)
-  //   try {
-  //     const response = await axios(`/api/v1/banks`)
-  //     const { banks } = response.data
-  //     if(banks){
-  //       const newBanks = banks.map((item) => {
-  //         const {
-  //           MFO,
-  //           SHORTNAME,
-  //           KOD_EDRPOU,
-  //           group,
-  //           NP,
-  //           ADRESS,
-  //           P_IND,
-  //           assetstotal,
-  //           liabilities,
-  //           capitaltotal,
-  //           profittotal,
-  //         } = item
-  //         return {
-  //           mfo: MFO,
-  //           brand: SHORTNAME,
-  //           kod: KOD_EDRPOU,
-  //           group,
-  //           np: NP,
-  //           adress: ADRESS,
-  //           postindex: P_IND,
-  //           assetstotal,
-  //           liabilities,
-  //           capitaltotal,
-  //           profittotal,
-  //         }
-  //       })
-  //       setBanks(newBanks)
-  //     } else {
-  //       setBanks([])
-  //     }
-  //     setIsLoading(false)
-  //   } catch (error) {
-  //     console.log(error)
-  //     setIsLoading(false)
-  //   }
-  // },[])
+  const getBanks = useCallback( async () => {
+    setIsLoading(true)
+    try {
+      const response = await axios(`/api/v1/banks`)
+      const { banks } = response.data
+      if(banks){
+        const newBanks = banks.map((item) => {
+          const {
+            MFO,
+            SHORTNAME,
+            KOD_EDRPOU,
+            group,
+            NP,
+            ADRESS,
+            P_IND,
+            assetstotal,
+            liabilities,
+            capitaltotal,
+            profittotal,
+          } = item
+          return {
+            mfo: MFO,
+            brand: SHORTNAME,
+            kod: KOD_EDRPOU,
+            group,
+            np: NP,
+            adress: ADRESS,
+            postindex: P_IND,
+            assetstotal,
+            liabilities,
+            capitaltotal,
+            profittotal,
+          }
+        })
+        setBanks(newBanks)
+      } else {
+        setBanks([])
+      }
+      setIsLoading(false)
+    } catch (error) {
+      console.log(error)
+      setIsLoading(false)
+    }
+  },[])
 
-  // useEffect(()=>{
-  //   getBanks()
-  // },[getBanks])
+  useEffect(()=>{
+    getBanks()
+  },[getBanks])
 
   return (
     <AppContext.Provider
       value={{
         isLoading,
-        // banks,
+        banks,
         saveUser,
         user,
         logoutUser
