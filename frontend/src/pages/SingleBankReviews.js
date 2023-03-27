@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom'
 import Loading from '../components/Loading'
 // import { useGlobalContext } from '../context'
 
-import url from '../utils/url'
+// import url from '../utils/url'
 
 const SingleBankReviews = () => {
   // const {  user} = useGlobalContext()
@@ -17,7 +17,7 @@ const SingleBankReviews = () => {
     setLoading(true)
     async function getSingleBankId() {
       try {
-        const response = await axios(`${url}/api/v1/banks/${mfo}`)
+        const response = await axios(`/api/v1/banks/${mfo}`)
         const { bank } = response.data
         if(bank){
           const {

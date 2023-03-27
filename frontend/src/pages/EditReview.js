@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import useLocalState from '../utils/localState'
 import FormRow from '../components/FormRow'
 
-import url from '../utils/url'
+// import url from '../utils/url'
 
 const EditReview = () => {
   const { id } = useParams()
@@ -33,7 +33,7 @@ const EditReview = () => {
 
       try {
         const { data } = await axios.patch(
-          `${url}/api/v1/reviews/${id}`,
+          `/api/v1/reviews/${id}`,
           updatedReview
         )
         setSuccess(true)
@@ -50,7 +50,7 @@ const EditReview = () => {
     setLoading(true)
     async function getSingleReview () {
       try {
-        const response = await axios(`${url}/api/v1/reviews/${id}`)
+        const response = await axios(`/api/v1/reviews/${id}`)
         const {review} = response.data
         setRating(review.rating)
         setTitle(review.title)

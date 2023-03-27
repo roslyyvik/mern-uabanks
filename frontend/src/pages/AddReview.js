@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import useLocalState from '../utils/localState'
 import FormRow from '../components/FormRow'
 
-import url from '../utils/url'
+// import url from '../utils/url'
 
 const AddReviews = () => {
   const navigate = useNavigate()
@@ -40,7 +40,7 @@ const AddReviews = () => {
 
     try {
       const { data } = await axios.post(
-        `${url}/api/v1/reviews`,
+        `/api/v1/reviews`,
         addNewReview
       )
       setSuccess(true)

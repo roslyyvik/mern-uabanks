@@ -6,7 +6,7 @@ import Loading from '../components/Loading'
 import { FaRegEdit } from 'react-icons/fa'
 import { MdDelete } from 'react-icons/md'
 
-import url from '../utils/url'
+// import url from '../utils/url'
 
 const Reviews = () => {
   const { id } = useParams()
@@ -19,7 +19,7 @@ const Reviews = () => {
     setLoading(true)
     async function getSingleBankReviews() {
       try {
-        const response = await axios(`${url}/api/v1/users/${user.userId}/reviews`)
+        const response = await axios(`/api/v1/users/${user.userId}/reviews`)
         const { reviews } = response.data
         setUserReviews(reviews)
       } catch (error) {
@@ -32,7 +32,7 @@ const Reviews = () => {
 
   // handling Delete
     const handleDelete = async (id) => {
-      await axios.delete(`${url}/api/v1/reviews/${id}`)
+      await axios.delete(`/api/v1/reviews/${id}`)
       navigate(`/reviewslist`)
     }
 

@@ -6,7 +6,7 @@ import useLocalState from '../utils/localState'
 import FormRow from '../components/FormRow'
 import axios from 'axios'
 
-import url from '../utils/url'
+// import url from '../utils/url'
 
 const Profile = () => {
   const {user, saveUser} = useGlobalContext()
@@ -82,7 +82,7 @@ const Profile = () => {
        try {
 
         const { data } = await axios.put(
-          `${url}/api/v1/users/updateUser`,
+          `/api/v1/users/updateUser`,
           updatedUser
         )
         console.log(data);
