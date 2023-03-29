@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, lazy, Suspense } from 'react'
 import { Link } from 'react-router-dom'
 import { useGlobalContext } from '../context'
-import BankItem from '../components/BankItem'
+// import BankItem from '../components/BankItem'
 import Loading from '../components/Loading'
 import useFilterableData from '../hooks/useFilterableData'
 import MyInput from '../ui/input/MyInput'
 import MySelect from '../ui/select/MySelect'
 import Alert from '../components/Alert'
 import {FaAngleDoubleRight} from 'react-icons/fa'
+const BankItem = lazy(() => import('../components/BankItem'))
 
 const Home = () => {
   const {banks, isLoading} = useGlobalContext()
@@ -51,22 +52,24 @@ const Home = () => {
            />
         </div>
         )}
-      <section className='followers'>
-        <h1>Банки України </h1>
-        <div className='container'>
-          {search(services).map((bank) => {
-              return (
-                <>
-                  <BankItem key={bank.mfo} {...bank} />
-                  <Link to={`/bank/${bank.mfo}`} >
-                    <button  className='btn btn-details'>Детальніше  <FaAngleDoubleRight/></button>
-                  </Link>
-                </>
-              )
-            })
-          }
-        </div>
-      </section>
+        <Suspense fallback={<Loading />}>                
+        <section className='followers'>
+          <h1>Банки України </h1>
+          <div className='container'>
+            {search(services).map((bank) => {
+                return (
+                  <>
+                    <BankItem key={bank.mfo} {...bank} />
+                    <Link to={`/bank/${bank.mfo}`} >
+                      <button  className='btn btn-details'>Детальніше  <FaAngleDoubleRight/></button>
+                    </Link>
+                  </>
+                )
+              })
+            }
+          </div>
+        </section>
+        </Suspense>
     </main>
 
   )
