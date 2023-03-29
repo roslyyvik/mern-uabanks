@@ -1,12 +1,17 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, lazy, Suspense } from 'react'
 import axios from 'axios';
 import { Link, useParams } from 'react-router-dom'
 import Loading from '../components/Loading'
-import AssetsItem from '../components/AssetsItem';
-import CapitalItem from '../components/CapitalItem';
-import LiabilitiesItem from '../components/LiabilitiesItem';
-import ProfitItem from '../components/ProfitItem';
+// import AssetsItem from '../components/AssetsItem';
+// import CapitalItem from '../components/CapitalItem';
+// import LiabilitiesItem from '../components/LiabilitiesItem';
+// import ProfitItem from '../components/ProfitItem';
 import {FaAngleDoubleLeft, FaStar} from 'react-icons/fa'
+
+const AssetsItem = lazy(() => import('../components/AssetsItem'))
+const CapitalItem = lazy(() => import('../components/CapitalItem'))
+const LiabilitiesItem = lazy(() => import('../components/LiabilitiesItem'))
+const ProfitItem = lazy(() => import('../components/ProfitItem'))
 
 // import url from '../utils/url'
 const colors = {
@@ -126,12 +131,14 @@ const BankPage = () => {
           </li>
         </ul>
         <div className='underline'></div>
+        <Suspense fallback={<Loading/>}>
           <div>
             <AssetsItem />
             <LiabilitiesItem />
             <CapitalItem />
             <ProfitItem />
           </div>
+        </Suspense>          
       </main>
     )
   }
