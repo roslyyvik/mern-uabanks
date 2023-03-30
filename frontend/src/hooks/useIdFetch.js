@@ -12,7 +12,7 @@ export const useIdFetch = () => {
   const getIndicators = async () => {
     setLoading(true)
     try {
-      const response = await axios.get(`${indicatorUrl}/${mfo}`)
+      const response = await axios.get(`/api/v1/indicators/${mfo}`)
       setIndicators(response.data)
       setLoading(false)
     } catch (e) {
