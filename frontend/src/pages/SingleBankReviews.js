@@ -91,7 +91,7 @@ const SingleBankReviews = () => {
           <li>КІЛЬКІСТЬ ВІДГУКІВ: {numOfReviews}</li>
           <li><Link to={`/addreview/${id}`}>create review</Link></li>
           <li>
-              {numOfReviews > 0 ? <table>
+              {numOfReviews > 0 ? <table style={{overflow:'hidden'}}>
                 <thead>
                   <tr>
                     <td>n</td>
