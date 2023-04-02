@@ -5,6 +5,7 @@ dotenv.config()
 const express = require('express')
 const app = express()
 
+const mongoose = require('mongoose')
 require("express-async-errors")
 const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
@@ -48,6 +49,7 @@ app.use(cors()
 app.use(xss())
 app.use(mongoSanitize())
 
+mongoose.set("strictQuery", false)
 connectDB()
 
 app.use(express.json())
