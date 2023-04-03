@@ -107,7 +107,7 @@ const Profile = () => {
       {!success && (
         <form className='form' onSubmit={onSubmit} encType="multipart/form-data">
           <h2>Welcome {user.name}'s Profile</h2>
-          <img style={{height:'200px', width: "200px", borderRadius:'50%'}} src={user.pic} alt={user.name} />
+          <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={user.pic} alt={user.name} />
           <FormRow
               type='text'
               name="name"
