@@ -46,9 +46,7 @@ app.use(
 app.use( helmet({
   contentSecurityPolicy: false,
 }))
-app.use(cors({
-  origin: "https://res.cloudinary.com/"
-}))
+app.use(cors(corsOptions()))
 app.use(xss())
 app.use(mongoSanitize())
 
