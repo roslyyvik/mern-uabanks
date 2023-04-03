@@ -1,5 +1,6 @@
 const allowedOrigins = [
-  'https://banksua.onrender.com',
+//   'https://banksua.onrender.com',
+  "https://res.cloudinary.com/",
   // 'http://localhost:3000'
 ]
 
