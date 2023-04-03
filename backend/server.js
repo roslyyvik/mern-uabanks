@@ -42,7 +42,9 @@ app.use(
     max: 60,
   })
 );
-app.use(helmet())
+app.use( helmet({
+  contentSecurityPolicy: false,
+}))
 app.use(cors()
 )
 app.use(xss())
