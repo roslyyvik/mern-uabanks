@@ -62,8 +62,13 @@ function Dashboard() {
        <Wrapper className='page'>
        <div className='about-container'>
           <div className='about-section'>
+<<<<<<< HEAD
             <img src={pic} alt={name} width={250} height={250}/>
             {/* <input
+=======
+            <img crossorigin="anonymous" src={pic} alt={name} width={250} height={250}/>
+            <input
+>>>>>>> 048f98e6544cc03aafc909a99e7a42d2a870fd3b
               id="photo-upload"
               type="file"
               accept="image/*"

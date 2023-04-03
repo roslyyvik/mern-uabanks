@@ -2,8 +2,6 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-// const indicatorUrl = "https://banksua-api.onrender.com/api/v1/indicators"
-
 export const useIdFetch = () => {
   const { mfo } = useParams()
   const [loading, setLoading] = useState(true)

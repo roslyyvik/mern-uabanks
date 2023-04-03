@@ -5,6 +5,7 @@ dotenv.config()
 const express = require('express')
 const app = express()
 
+const mongoose = require('mongoose')
 require("express-async-errors")
 const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
@@ -45,11 +46,18 @@ app.use(
 app.use( helmet({
   contentSecurityPolicy: false,
 }))
+<<<<<<< HEAD
 app.use(cors()
 )
+=======
+app.use(cors({
+  origin: "https://res.cloudinary.com/"
+}))
+>>>>>>> 048f98e6544cc03aafc909a99e7a42d2a870fd3b
 app.use(xss())
 app.use(mongoSanitize())
 
+mongoose.set("strictQuery", false)
 connectDB()
 
 app.use(express.json())
