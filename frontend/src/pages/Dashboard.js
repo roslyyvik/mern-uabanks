@@ -62,7 +62,7 @@ console.log(pic);
        <Wrapper className='page'>
        <div className='about-container'>
           <div className='about-section'>
-            <img src={pic} alt={name} width={250} height={250}/>
+            <img crossorigin="anonymous" src={pic} alt={name} width={250} height={250}/>
             <input
               id="photo-upload"
               type="file"
