@@ -34,13 +34,12 @@ function Login() {
         text: `Welcome, ${data.user.name}. Redirecting to dashboard...`,
         type: 'success'
       })
-      setLoading(false)
       saveUser(data.user)
       navigate(`/dashboard`)
     } catch (error) {
-      showAlert({ text: error.response.data.msg })
-      setLoading(false)
+      showAlert({ text: error.response.data.msg })    
     }
+    setLoading(false)
   }
 
   return (
@@ -96,6 +95,7 @@ const Wrapper = styled.section`
   p {
     margin: 0;
     text-align: center;
+    letter-spacing: 0.1rem;
   }
   .btn {
     margin-bottom: 1.5rem;
@@ -105,7 +105,7 @@ const Wrapper = styled.section`
     display: inline-block;
     margin-left: 0.25rem;
     text-transform: capitalize;
-    color: var(--primary-500);
+    color: var(--primaryColor);
     cursor: pointer;
   }
   .reset-link {

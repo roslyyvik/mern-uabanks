@@ -134,6 +134,9 @@ p {
 .btn:disabled {
   cursor: not-allowed;
 }
+button {
+  margin-top: 2rem;
+}
 `
 
 export default AddReviews

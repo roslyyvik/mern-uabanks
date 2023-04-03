@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 import FormRow from '../components/FormRow'
 import axios from 'axios'
@@ -7,6 +7,7 @@ import useLocalState from '../utils/localState'
 // import url from '../utils/url'
 
 function Register() {
+  const navigate = useNavigate()
   const [ values, setValues ] = useState({
     name: '',
     email: '',
@@ -43,6 +44,7 @@ function Register() {
       setSuccess(true)
       setValues({ name: '', email: '', password: '', propic:'' })
       showAlert({ text: data.msg, type: 'success' })
+      // navigate('/login')
     } catch (error) {
       const { msg } = error.response.data
       showAlert({ text: msg || 'there was an error' })
@@ -111,12 +113,13 @@ p {
   margin: 0;
   margin-top: 1rem;
   text-align: center;
+  letter-spacing: 0.1rem;
 }
 .login-link {
   display: inline-block;
   margin-left: 0.25rem;
   text-transform: capitalize;
-  color: var(--primary-500);
+  color: var(--primaryColor);
   cursor: pointer;
 }
 .btn:disabled {

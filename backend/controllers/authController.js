@@ -55,7 +55,7 @@ const register = async (req, res) => {
   //   msg: 'Success! Please check your email to verify account',
   // });
   res.status(StatusCodes.CREATED).json({
-    msg: 'Success! User Created!',
+    msg: 'Success! User Created! Redirect to login...',
   });
 };
 

@@ -450,6 +450,35 @@ Navbar
   background: var(--green-light);
 }
 
+.success {
+  background: green;
+  color: azure;
+}
+
+.danger {
+  background: #d23669;
+  color: azure;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  animation: spinner 0.6s linear infinite;
+  margin: 0 auto;
+}
+.loading {
+  margin: 0 auto;
+}
+
 .form {
   width: var(--fluid-width);
   max-width: var(--fixed-width);
@@ -493,6 +522,17 @@ Navbar
   text-transform: capitalize;
 }
 
+.form-loading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--borderRadius);
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: not-allowed;
+}
 
 .page {
   min-height: calc(100vh - 6rem);
@@ -558,6 +598,17 @@ Navbar
   display: inline-block;
   margin-right: 1rem;
   /* color: #000; */
+}
+
+ 
+.single-bank-container-reviews {
+  max-width: var(--fullWidth);
+  overflow-x: auto;
+  padding: 1rem 0.2rem;
+}
+
+.single-bank-container-reviews table thead::before {
+  content: "";
 }
 
 .table-container {
@@ -681,15 +732,7 @@ thead::before{
   }
 }
 
-.success {
-  background: green;
-  color: azure;
-}
 
-.danger {
-  background: #d23669;
-  color: azure;
-}
 
 main {
   display: block;
@@ -1007,6 +1050,7 @@ input[type=checkbox] {
   .banks-item-container{
     overflow-x: auto;
   }
+ 
   .accordian-header h3 {
     font-size: 1.5em;
   }

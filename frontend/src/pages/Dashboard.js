@@ -56,22 +56,22 @@ function Dashboard() {
         console.log(error);
     }
   }
-console.log(pic);
+
   return (
     <>
        <Wrapper className='page'>
        <div className='about-container'>
           <div className='about-section'>
             <img src={pic} alt={name} width={250} height={250}/>
-            <input
+            {/* <input
               id="photo-upload"
               type="file"
               accept="image/*"
               name="image"
               onChange={handleImage}
-            />
-            <button onClick={handleSubmit}>Submit</button>
-            <div className='about-text'>
+            /> */}
+            {/* <button onClick={handleSubmit}>Submit</button> */}
+            <div className='about-text'  style={{textAlign: 'center'}}>
               <h1 className='section-title'>Hello there, {name}</h1>
               <p>
                 Your Email : {email}

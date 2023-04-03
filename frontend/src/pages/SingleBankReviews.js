@@ -86,12 +86,12 @@ const SingleBankReviews = () => {
           <li>БАНКІВСЬКА ГРУПА: {group}</li>
           <li>АДРЕСА: {postindex}, {np}, {adress}  </li>
         </ul>
-        <ul className='single-bank-container'>
+        <ul className='single-bank-container-reviews'>
           <li>РЕЙТИНГ: {averageRating}</li>
           <li>КІЛЬКІСТЬ ВІДГУКІВ: {numOfReviews}</li>
-          <li><Link to={`/addreview/${id}`}>create review</Link></li>
+          <li><Link to={`/addreview/${id}`}>Create review</Link></li>
           <li>
-              {numOfReviews > 0 ? <table style={{overflow:'hidden'}}>
+              {numOfReviews > 0 ? <table>
                 <thead>
                   <tr>
                     <td>n</td>
@@ -109,7 +109,7 @@ const SingleBankReviews = () => {
                     <td>{review.user.name}</td>
                     <td>{brand}</td>
                     <td>{review.title }</td>
-                    <td>{ review.comment }</td>
+                    <td style={{minWidth:"300px"}}>{ review.comment }</td>
                     <td>{ review.rating }</td>
                   </tr>
                 ))}

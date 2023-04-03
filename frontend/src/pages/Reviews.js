@@ -49,7 +49,7 @@ const Reviews = () => {
   return (
     <main>
       <div>{user.name}'s Reviews</div>
-      <div>
+      <div className='single-bank-container-reviews'>
         <table>
         <thead>
           <tr>
@@ -68,7 +68,7 @@ const Reviews = () => {
             <td>{i + 1}</td>
             <td>{review.bank.SHORTNAME}</td>
             <td>{review.title}</td>
-            <td>{review.comment}</td>
+            <td style={{minWidth:"300px"}}>{review.comment}</td>
             <td>{review.rating}</td>
             <td><Link to={`/editreview/${review._id}`}>{<FaRegEdit/>}</Link></td>
             <td>

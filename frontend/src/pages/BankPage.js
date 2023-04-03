@@ -124,7 +124,7 @@ const BankPage = () => {
           </li>
           <li>КІЛЬКІСТЬ ВІДГУКІВ: {numOfReviews}</li>
           <li>
-            <Link to={`/bank/${mfo}/reviews`}>reviews</Link>
+            <Link to={`/bank/${mfo}/reviews`}>Reviews</Link>
           </li>
           <li>
             <Link to={`/addreview/${id}`}>Add review</Link>

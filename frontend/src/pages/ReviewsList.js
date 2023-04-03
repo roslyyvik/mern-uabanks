@@ -33,9 +33,9 @@ const ReviewsList = () => {
   }
 
   return (
-    <section className='followers'>
+    <section className='page'>
       <h1>Відгуки Банків України {reviewsList.length} </h1>
-      <div className='container'>
+      <div className='single-bank-container-reviews'>
               <table>
                 <thead>
                   <tr>
@@ -58,7 +58,7 @@ const ReviewsList = () => {
                       </Link>
                     </td>
                     <td>{review.title }</td>
-                    <td>{ review.comment }</td>
+                    <td style={{minWidth:"300px"}}>{ review.comment }</td>
                     <td>{ review.rating }</td>
                   </tr>
                 ))}
