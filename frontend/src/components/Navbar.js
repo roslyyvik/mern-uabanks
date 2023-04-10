@@ -38,7 +38,7 @@ const Navbar = ({ toggleTheme }) => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height
     if(showLinks){
-      linksContainerRef.current.style.height = `380px`
+      linksContainerRef.current.style.height = `${linksHeight}px`
     }else{
       linksContainerRef.current.style.height = '0px'
     }
@@ -56,8 +56,8 @@ const Navbar = ({ toggleTheme }) => {
           <button className='nav-toggle' onClick={toggleLinks}><FaBars/></button>
         </div>
         <div className='links-container' ref={linksContainerRef}>
-            <div ref={linksRef}>
-              <ul className='nav-links'>
+            <div >
+              <ul ref={linksRef} className='nav-links'>
                 <li>
                   <Link to='/'>установи</Link>
                 </li>
