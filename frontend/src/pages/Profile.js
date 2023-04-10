@@ -110,7 +110,7 @@ const Profile = () => {
           <h2>Welcome {user.name}'s Profile</h2>
 
           {/* <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={user.pic} alt={user.name} /> */}
-          <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={userImage} alt={user.name} />
+          <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%', margin: '1rem auto'}} src={userImage} alt={user.name} />
           <FormRow
               type='text'
               name="name"
