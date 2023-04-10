@@ -4,6 +4,7 @@ import styled from "styled-components"
 import { useGlobalContext } from "../context"
 import { useNavigate } from 'react-router-dom'
 // import url from '../utils/url'
+import userImage from '../assets/images/default-avatar.svg'
 
 function Dashboard() {
   const [ count, setCount ] = useState(0)
@@ -62,7 +63,8 @@ function Dashboard() {
        <Wrapper className='page'>
        <div className='about-container'>
           <div className='about-section'>
-            <img crossorigin="anonymous" src={pic} alt={name} width={250} height={250}/>
+            {/* <img crossorigin="anonymous" src={pic} alt={name} width={250} height={250}/> */}
+            <img crossorigin="anonymous" src={userImage} alt={name} width={250} height={250}/>
             {/* <input
               id="photo-upload"
               type="file"

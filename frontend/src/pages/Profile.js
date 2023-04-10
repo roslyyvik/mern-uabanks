@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import useLocalState from '../utils/localState'
 import FormRow from '../components/FormRow'
 import axios from 'axios'
+import userImage from '../assets/images/default-avatar.svg'
 
 // import url from '../utils/url'
 
@@ -108,7 +109,8 @@ const Profile = () => {
         <form className='form' onSubmit={onSubmit} encType="multipart/form-data">
           <h2>Welcome {user.name}'s Profile</h2>
 
-          <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={user.pic} alt={user.name} />
+          {/* <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={user.pic} alt={user.name} /> */}
+          <img crossorigin="anonymous" style={{height:'200px', width: "200px", borderRadius:'50%'}} src={userImage} alt={user.name} />
           <FormRow
               type='text'
               name="name"
