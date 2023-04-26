@@ -199,11 +199,8 @@ Navbar
 
 .links-container {
   height: 0;
-  overflow: hidden;
+  overflow-y: auto;
   transition: var(--transition);
-  display:flex;
-  /* align-items: center; */
-  justify-content:space-between;
   padding:0 1.2rem;
 }
 
@@ -326,14 +323,16 @@ Navbar
    padding: 0.3rem;
    background: var(--primaryColor);
  } 
+/* 
+ .user-dropdown{
+  position: relative;
+ } */
 
  .user-links {
   position: absolute;
   top:4rem;
-  right: 0.5rem;
-  z-index: 999;
+  margin-left: -35px;
   list-style-type: none;
-  /* margin: 5px 0; */
   padding: 20px 10px;
   display: block;
   border: 1px solid grey;

@@ -38,7 +38,7 @@ const Navbar = ({ toggleTheme }) => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height
     if(showLinks){
-      linksContainerRef.current.style.height = `${linksHeight}px`
+      linksContainerRef.current.style.height = `${linksHeight * 2.2}px`
     }else{
       linksContainerRef.current.style.height = '0px'
     }
@@ -80,10 +80,9 @@ const Navbar = ({ toggleTheme }) => {
                   <FaRegUser/> {user.name} <FaAngleDown/>
                 </button>
                 {open ? (
-                  <div>
                     <ul className='user-links'>
                         <li>
-                          {user.email}
+                        <Link to='#'>{user.email}</Link>                          
                         </li>
                         <li>
                           <Link to='/profile'>Profile</Link>
@@ -102,7 +101,6 @@ const Navbar = ({ toggleTheme }) => {
                         >Logout <FiLogOut/>
                         </li>
                     </ul>
-                  </div>
                 ):(null)}
                 </div>
               ): (
