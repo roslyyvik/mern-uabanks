@@ -198,7 +198,6 @@ Navbar
 }
 
 .links-container {
-  /* position: relative; */
   height: 0;
   overflow: hidden;
   transition: var(--transition);
@@ -260,20 +259,16 @@ Navbar
   font-size: 25px;
 }
 
-/* .user-dropdown {
-  position:relative;
-} */
-
 .user-links {
-  position: relative;
-  z-index: 999;
+  transition: var(--transition);
   list-style-type: none;
   margin: 5px 0;
-  padding: 10px 20px;
+  padding: 5px 20px;
   display: block;
-  width: auto;
-  background-color: var(--mainWhite);
+  background-color: var(--mainWhite); 
+  border-left: 1px solid var(--primaryColor); 
 }
+
 
 .user-links a:hover {
   color: var(--mainWhite);
@@ -335,7 +330,7 @@ Navbar
  .user-links {
   position: absolute;
   top:4rem;
-  /* right: 0.5rem; */
+  right: 0.5rem;
   z-index: 999;
   list-style-type: none;
   /* margin: 5px 0; */
