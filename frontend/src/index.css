@@ -243,9 +243,10 @@ Navbar
   display:block;
 }
 
-.logo {
-  width: 2rem;
-}
+/* .logo {
+  max-width: 2rem;
+  height: 1.78rem;
+} */
 .logo-item{
   display: flex;
   align-items: center;

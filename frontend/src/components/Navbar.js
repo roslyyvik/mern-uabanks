@@ -50,7 +50,7 @@ const Navbar = ({ toggleTheme }) => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link className='logo-item' to='/'>
-            <img src={logo} alt='logo' className='logo' />
+            <img src={logo} alt='logo' width="32" height="28.55" className='logo' />
             <span>BanksUA</span>
           </Link>
           <button className='nav-toggle' onClick={toggleLinks}><FaBars/></button>
