@@ -1,10 +1,11 @@
 import React from 'react'
+import { memo } from 'react'
 import moneyFormatter from '../utils/format'
 import { bankItemChart } from '../utils/tableChart'
 import { BankItemLineChart } from './IndicatorChart'
 import { FaChartLine } from 'react-icons/fa'
 
-const BankItem = ({
+const BankItem = memo(({
   brand,
   mfo,
   kod,
@@ -115,6 +116,6 @@ const bankItemTableChartProfit = bankItemChart(profitTable)
         </table>
     </div>
   )
-}
+})
 
 export default BankItem
