@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/images/LogoMakr-3.png'
+import logo from '../assets/images/LogoMakr-4.png'
 import { FaBars, FaAngleDown, FaRegUser } from 'react-icons/fa'
 import { FiLogOut } from 'react-icons/fi'
 import { useGlobalContext } from '../context'
@@ -50,7 +50,7 @@ const Navbar = ({ toggleTheme }) => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link className='logo-item' to='/'>
-            <img src={logo} alt='logo' width="40" height="50" className='logo' />
+            <img src={logo} alt='logo' width="40" height="40" className='logo' />
             <span>FinStan</span>
           </Link>
           <button className='nav-toggle' onClick={toggleLinks}><FaBars/></button>
