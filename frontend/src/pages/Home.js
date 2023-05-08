@@ -1,5 +1,6 @@
 import React, { useEffect, useState, lazy, Suspense } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from "../components/SEO"
 import { useGlobalContext } from '../context'
 // import BankItem from '../components/BankItem'
 import Loading from '../components/Loading'
@@ -29,6 +30,12 @@ const Home = () => {
   }
   return (
     <main>
+      <SEO
+        title='Банки України, Відгуки, Фінансові Звіти За Період'
+        description="Динаміка зміни АКТИВІВ, ЗОБОВ'ЯЗАНЬ, КАПІТАЛУ ТА ПРИБУТКУ банків України в розрізі окремого банку. Можливість аналізу у групах, сортування по показниках.Відгуки щодо фінансового стану окремого банку України."
+        name=""
+        type=""
+      />
       <div className='section-title'>
         <h1>{isLoading ? <Loading/> : (searchLength.length === 0 ? <Alert /> : `Кількість банківських установ: ${searchLength.length}`)}</h1>
       </div>

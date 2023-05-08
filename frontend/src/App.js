@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HelmetProvider } from "react-helmet-async"
 import Navbar from './components/Navbar'
 import useToggleTheme from './hooks/useToggleTheme'
 import TopButton from './ui/button/TopButton'
@@ -39,31 +40,34 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
-      <Navbar toggleTheme={toggleTheme}/>
-      <TopButton/>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/reviewslist' element={<ReviewsList />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/about' element={<About />} />
-        <Route element={<ProtectedRoute />} >
-          <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/profile' element={<Profile />} />
-          <Route path='/reviews' element={<Reviews />} />
-          <Route path='/editreview/:id' element={<EditReview />} />
-          <Route path='/addreview/:id' element={<AddReview />} />
-        </Route>
-        <Route path='/bank/:mfo' element={<BankPage />} />
-        <Route path='/bank/:mfo/reviews' element={<SingleBankReviews />} />
-        <Route path='/tables' element={<BanksTable />} />
-        <Route path='/forgot-password' element={<ForgotPassword/>}/>
-        <Route path='/user/verify-email' element={<Verify/>}/>
-        <Route path='/user/reset-password' element={<ResetPassword/>}/>
-        <Route path='*' element={<Error />} />
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Navbar toggleTheme={toggleTheme}/>
+        <TopButton/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/reviewslist' element={<ReviewsList />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/about' element={<About />} />
+          <Route element={<ProtectedRoute />} >
+            <Route path='/dashboard' element={<Dashboard />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/reviews' element={<Reviews />} />
+            <Route path='/editreview/:id' element={<EditReview />} />
+            <Route path='/addreview/:id' element={<AddReview />} />
+          </Route>
+          <Route path='/bank/:mfo' element={<BankPage />} />
+          <Route path='/bank/:mfo/reviews' element={<SingleBankReviews />} />
+          <Route path='/tables' element={<BanksTable />} />
+          <Route path='/forgot-password' element={<ForgotPassword/>}/>
+          <Route path='/user/verify-email' element={<Verify/>}/>
+          <Route path='/user/reset-password' element={<ResetPassword/>}/>
+          <Route path='*' element={<Error />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
+    
   )
 }
 
