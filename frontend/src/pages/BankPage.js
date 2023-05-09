@@ -1,11 +1,8 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react'
+import SEO from '../components/SEO';
 import axios from 'axios';
 import { Link, useParams } from 'react-router-dom'
 import Loading from '../components/Loading'
-// import AssetsItem from '../components/AssetsItem';
-// import CapitalItem from '../components/CapitalItem';
-// import LiabilitiesItem from '../components/LiabilitiesItem';
-// import ProfitItem from '../components/ProfitItem';
 import {FaAngleDoubleLeft, FaStar} from 'react-icons/fa'
 
 const AssetsItem = lazy(() => import('../components/AssetsItem'))
@@ -21,10 +18,10 @@ const colors = {
 };
 
 const BankPage = () => {
-  const { mfo, id } = useParams()
+  const { mfo,} = useParams()
   const [ loading, setLoading ] = useState(false)
   const [ singleBank, setSingleBank ] = useState(null)
-  const [currentValue, setCurrentValue] = useState(0);
+  // const [currentValue, setCurrentValue] = useState(0);
 
   const stars = Array(5).fill(0)
 
@@ -92,10 +89,15 @@ const BankPage = () => {
       postindex,
       averageRating,
       numOfReviews,
-      reviews,
     } = singleBank
     return (
       <main>
+        <SEO
+        title='Банки України, Відгуки, Фінансові Звіти За Період'
+        description="Динаміка зміни АКТИВІВ, ЗОБОВ'ЯЗАНЬ, КАПІТАЛУ ТА ПРИБУТКУ банків України в розрізі окремого банку. Можливість аналізу у групах, сортування по показниках.Відгуки щодо фінансового стану окремого банку України."
+        name=""
+        type=""
+      />
         <Link to='/'>
         <button  className='btn btn-details'><FaAngleDoubleLeft/> back home</button>
         </Link>

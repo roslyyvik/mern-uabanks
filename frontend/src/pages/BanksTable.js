@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import { useGlobalContext } from '../context'
 import data from '../data.json'
 import useSortableData from '../hooks/useSortableData'
@@ -55,6 +56,12 @@ const [ filterParam, setFilterParam ] = useState('All')
 
   return (
     <main>
+      <SEO
+        title='Банки України, Фінансові Звіти За Період, Відгуки'
+        description="Динаміка зміни АКТИВІВ, ЗОБОВ'ЯЗАНЬ, КАПІТАЛУ ТА ПРИБУТКУ банків України в розрізі окремого банку. Можливість аналізу у групах, сортування по показниках.Відгуки щодо фінансового стану окремого банку України."
+        name=""
+        type=""
+      />
     <div className='section-title'>
       <h1>{searchLength.length === 0 ? <Alert /> : `Кількість банківських установ:${searchLength.length}`}</h1>
     </div>
