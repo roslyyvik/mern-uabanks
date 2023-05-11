@@ -12,10 +12,10 @@
   "group": "Банки з державною часткою",
   "SVB": "Системно важливі банки",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 737413904,
-  "liabilities": 491885208,
-  "capitaltotal": 57788818,
-  "profittotal": 30197968
+  "assetstotal": [582851091,656975376,737413904],
+  "liabilities": [340642144,402757072,491885208],
+  "capitaltotal": [66614525,71463071,57788818],
+  "profittotal": [35050411,6284002,30197968]
 }, {
   "indicators": [],
   "normatives": [
@@ -31,10 +31,10 @@
   "MFO": "320478",
   "group": "Банки з державною часткою",
   "SVB": "Системно важливі банки",
-  "assetstotal": 146351168,
-  "liabilities": 124729826,
-  "capitaltotal": 6916121,
-  "profittotal": -3861512
+  "assetstotal": [130263426,139671406,146351168],
+  "liabilities": [111641288,119965562,124729826],
+  "capitaltotal": [11630901,8293471,6916121],
+  "profittotal": [3771007,-3198847,-3861512]
 }, {
   "indicators": [],
   "normatives": [],
@@ -48,10 +48,10 @@
   "MFO": "325365",
   "group": "Банки іноземних банківських груп",
   "SVB": "Системно важливі банки",
-  "assetstotal": 41619657,
-  "liabilities": 34932568,
-  "capitaltotal": 4037937,
-  "profittotal": 142416
+  "assetstotal": [33989948,33987404,41619657],
+  "liabilities": [29273290,28328676,34932568],
+  "capitaltotal": [3948294,4024942,4037937],
+  "profittotal": [796300,58354,142416]
 }, {
 
   "indicators": [
@@ -70,10 +70,10 @@
   "MFO": "334851",
   "group": "Банки з приватним капіталом",
   "SVB": "Системно важливі банки",
-  "assetstotal": 127791944,
-  "liabilities": 100277838,
-  "capitaltotal": 11696381,
-  "profittotal": -397722
+  "assetstotal": [110134996,109916179,127791944],
+  "liabilities": [92087531,87578098,100277838],
+  "capitaltotal": [12561293,12639902,11696381],
+  "profittotal": [4187592,218635,-397722]
 }, {
   "indicators": [],
   "normatives": [
@@ -89,10 +89,10 @@
   "MFO": "322313",
   "group": "Банки з державною часткою",
   "SVB": "Системно важливі банки",
-  "assetstotal": 258098394,
-  "liabilities": 232169299,
-  "capitaltotal": 4259521,
-  "profittotal": -6850256
+  "assetstotal": [210062743,228608406,258098394],
+  "liabilities": [179639611,195272926,232169299],
+  "capitaltotal": [12447354,10021947,4259521],
+  "profittotal": [2728417,-2536517,-6850256]
 }, {
   "indicators": [],
   "normatives": [],
@@ -105,10 +105,10 @@
   "D_OPEN": "29.12.1992",
   "MFO": "380838",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 10552087,
-  "liabilities": 9115351,
-  "capitaltotal": 1100700,
-  "profittotal": -415205
+  "assetstotal": [9473459,8864010,10552087],
+  "liabilities": [7933509,7387865,9115351],
+  "capitaltotal": [1478613,1396121,1100700],
+  "profittotal": [-266249,-80375,-415205]
 }, {
   "indicators": [],
   "normatives": [],
@@ -121,10 +121,10 @@
   "D_OPEN": "19.06.2009",
   "MFO": "380731",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 5315570,
-  "liabilities": 4794390,
-  "capitaltotal": 519958,
-  "profittotal": 185628
+  "assetstotal": [5347645,4657295,5315570],
+  "liabilities": [5011359,4287129,4794390],
+  "capitaltotal": [334980,368486,519958],
+  "profittotal": [6680,34157,185628]
 }, {
   "indicators": [],
   "normatives": [
@@ -139,10 +139,10 @@
   "D_OPEN": "11.05.1998",
   "MFO": "300584",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 52198493,
-  "liabilities": 45853450,
-  "capitaltotal": 5567324,
-  "profittotal": 2720688
+  "assetstotal": [33770215,38081799,52198493],
+  "liabilities": [30805891,33829040,45853450],
+  "capitaltotal": [2879491,3315585,5567324],
+  "profittotal": [1758108,235591,2720688]
 }, {
   "indicators": [],
   "normatives": [
@@ -157,10 +157,10 @@
   "D_OPEN": "15.12.1997",
   "MFO": "300539",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 16022897,
-  "liabilities": 11078197,
-  "capitaltotal": 4260910,
-  "profittotal": 403147
+  "assetstotal": [13648408,12527173,16022897],
+  "liabilities": [9786741,8323159,11078197],
+  "capitaltotal": [3857763,3665973,4260910],
+  "profittotal": [281803,-191790,403147]
 }, {
   "indicators": [
 
@@ -178,10 +178,10 @@
   "MFO": "339500",
   "group": "Банки з приватним капіталом",
   "SVB": "Системно важливі банки",
-  "assetstotal": 32413600,
-  "liabilities": 26109628,
-  "capitaltotal": 3234325,
-  "profittotal": 30950
+  "assetstotal": [31646069,30370056,32413600],
+  "liabilities": [27714677,25340692,26109628],
+  "capitaltotal": [3124268,3152961,3234325],
+  "profittotal": [456062,12851,30950]
 }, {
   "indicators": [],
   "normatives": [],
@@ -194,10 +194,10 @@
   "D_OPEN": "03.12.1993",
   "MFO": "322540",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 6657989,
-  "liabilities": 5785751,
-  "capitaltotal": 568882,
-  "profittotal": 191958
+  "assetstotal": [8997795,8044662,6657989],
+  "liabilities": [8505203,7331619,5785751],
+  "capitaltotal": [440941,481999,568882],
+  "profittotal": [151081,60884,191958]
 }, {
   "indicators": [],
   "normatives": [
@@ -212,10 +212,10 @@
   "D_OPEN": "14.10.1991",
   "MFO": "325268",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 7617356,
-  "liabilities": 6658397,
-  "capitaltotal": 776231,
-  "profittotal": 127208
+  "assetstotal": [6638748,6668156,7617356],
+  "liabilities": [5931986,5891009,6658397],
+  "capitaltotal": [626130,671228,776231],
+  "profittotal": [71154,45099,127208]
 }, {
   "indicators": [],
   "normatives": [],
@@ -228,10 +228,10 @@
   "D_OPEN": "09.08.2005",
   "MFO": "380281",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 3934821,
-  "liabilities": 2859686,
-  "capitaltotal": 641761,
-  "profittotal": 4381
+  "assetstotal": [4340723,3387904,3934821],
+  "liabilities": [3291058,2333639,2859686],
+  "capitaltotal": [649451,666198,641761],
+  "profittotal": [57271,22613,4381]
 }, {
   "indicators": [
 
@@ -250,10 +250,10 @@
   "group": "Банки іноземних банківських груп",
   "SVB": "Системно важливі банки",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 96063275,
-  "liabilities": 69048451,
-  "capitaltotal": 6117030,
-  "profittotal": -7110163
+  "assetstotal": [125348950,104026470,96063275],
+  "liabilities": [102806313,78614300,69048451],
+  "capitaltotal": [12905990,10689371,6117030],
+  "profittotal": [3319121,-2348501,-7110163]
 }, {
   "indicators": [
 
@@ -270,10 +270,10 @@
   "D_OPEN": "10.02.1993",
   "MFO": "300614",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 79245229,
-  "liabilities": 66486659,
-  "capitaltotal": 6082460,
-  "profittotal": 31219
+  "assetstotal": [56671964,64285520,79245229],
+  "liabilities": [48172472,54712173,66486659],
+  "capitaltotal": [6698501,6148117,6082460],
+  "profittotal": [1552720,30681,31219]
 }, {
   "indicators": [],
   "normatives": [],
@@ -286,10 +286,10 @@
   "D_OPEN": "18.08.1994",
   "MFO": "353100",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 847597,
-  "liabilities": 511062,
-  "capitaltotal": 282447,
-  "profittotal": 712
+  "assetstotal": [760331,862118,847597],
+  "liabilities": [549464,437912,511062],
+  "capitaltotal": [286297,285135,282447],
+  "profittotal": [6070,461,712]
 }, {
   "indicators": [
 
@@ -307,10 +307,10 @@
   "MFO": "351005",
   "group": "Банки іноземних банківських груп",
   "SVB": "Системно важливі банки",
-  "assetstotal": 113072946,
-  "liabilities": 95350977,
-  "capitaltotal": 13104102,
-  "profittotal": 3558683
+  "assetstotal": [79519998,91476761,113072946],
+  "liabilities": [68714415,78576076,95350977],
+  "capitaltotal": [9545420,10269509,13104102],
+  "profittotal": [1454486,724089,3558683]
 }, {
   "indicators": [],
   "normatives": [
@@ -325,10 +325,10 @@
   "D_OPEN": "31.01.1994",
   "MFO": "300658",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 6436005,
-  "liabilities": 5524025,
-  "capitaltotal": 587469,
-  "profittotal": -111742
+  "assetstotal": [5767175,5111724,6436005],
+  "liabilities": [5005813,4321639,5524025],
+  "capitaltotal": [699691,621118,587469],
+  "profittotal": [48010,-77521,-111742]
 }, {
   "indicators": [],
   "normatives": [
@@ -344,10 +344,10 @@
   "MFO": "328209",
   "group": "Банки з приватним капіталом",
   "SVB": "Системно важливі банки",
-  "assetstotal": 49655164,
-  "liabilities": 41638873,
-  "capitaltotal": 4189500,
-  "profittotal": 389653
+  "assetstotal": [49027713,36365571,49655164],
+  "liabilities": [43883984,29991862,41638873],
+  "capitaltotal": [3758482,4103844,4189500],
+  "profittotal": [694177,309766,389653]
 }, {
   "indicators": [],
   "normatives": [],
@@ -360,10 +360,10 @@
   "D_OPEN": "04.06.2008",
   "MFO": "380634",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 12519342,
-  "liabilities": 11333202,
-  "capitaltotal": 381209,
-  "profittotal": -5667
+  "assetstotal": [15807911,12718952,12519342],
+  "liabilities": [14929625,11629484,11333202],
+  "capitaltotal": [387514,391317,381209],
+  "profittotal": [70006,3796,-5667]
 }, {
   "indicators": [
 
@@ -381,10 +381,10 @@
   "MFO": "300335",
   "group": "Банки іноземних банківських груп",
   "SVB": "Системно важливі банки",
-  "assetstotal": 187290030,
-  "liabilities": 159493704,
-  "capitaltotal": 17055047,
-  "profittotal": 1572798
+  "assetstotal": [133651482,148240165,187290030],
+  "liabilities": [116156929,127374078,159493704],
+  "capitaltotal": [15579500,16123809,17055047],
+  "profittotal": [4873339,628486,1572798]
 }, {
   "indicators": [
 
@@ -402,10 +402,10 @@
   "MFO": "300465",
   "group": "Банки з державною часткою",
   "SVB": "Системно важливі банки",
-  "assetstotal": 298146276,
-  "liabilities": 250026737,
-  "capitaltotal": 22163298,
-  "profittotal": 638825
+  "assetstotal": [249937975,246263859,298146276],
+  "liabilities": [215017813,211432283,250026737],
+  "capitaltotal": [21869889,17407482,22163298],
+  "profittotal": [1055378,-4042913,638825]
 }, {
   "indicators": [],
   "normatives": [
@@ -420,10 +420,10 @@
   "D_OPEN": "17.10.2002",
   "MFO": "307123",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 21167609,
-  "liabilities": 18646010,
-  "capitaltotal": 1488802,
-  "profittotal": 275524
+  "assetstotal": [19859927,18033479,21167609],
+  "liabilities": [18263715,16065601,18646010],
+  "capitaltotal": [1318399,1371607,1488802],
+  "profittotal": [285784,106036,275524]
 }, {
   "indicators": [],
   "normatives": [
@@ -440,10 +440,10 @@
   "group": "Банки з приватним капіталом",
   "SVB": "Системно важливі банки",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 95220717,
-  "liabilities": 77355432,
-  "capitaltotal": 9203800,
-  "profittotal": 2158813
+  "assetstotal": [60207207,64682088,95220717],
+  "liabilities": [50863410,51432631,77355432],
+  "capitaltotal": [6724307,6925504,9203800],
+  "profittotal": [3072211,250103,2158813]
 }, {
   "indicators": [],
   "normatives": [],
@@ -456,10 +456,10 @@
   "D_OPEN": "19.01.2011",
   "MFO": "380797",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 5319449,
-  "liabilities": 4467561,
-  "capitaltotal": 836091,
-  "profittotal": 149708
+  "assetstotal": [3203314,2738211,5319449],
+  "liabilities": [2516115,2020324,4467561],
+  "capitaltotal": [686383,716269,836091],
+  "profittotal": [45514,29886,149708]
 }, {
   "indicators": [
 
@@ -478,10 +478,10 @@
   "group": "Банки з приватним капіталом",
   "SVB": "Системно важливі банки",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 22072445,
-  "liabilities": 15368269,
-  "capitaltotal": 2418458,
-  "profittotal": 202636
+  "assetstotal": [15951075,17356999,22072445],
+  "liabilities": [12179344,11989107,15368269],
+  "capitaltotal": [2198569,2201671,2418458],
+  "profittotal": [800013,6202,202636]
 }, {
   "indicators": [],
   "normatives": [
@@ -496,10 +496,10 @@
   "D_OPEN": "05.11.1993",
   "MFO": "328168",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 11408834,
-  "liabilities": 9837443,
-  "capitaltotal": 912393,
-  "profittotal": 35004
+  "assetstotal": [12596070,11356432,11408834],
+  "liabilities": [11405607,9909596,9837443],
+  "capitaltotal": [984224,981032,912393],
+  "profittotal": [153942,490,35004]
 }, {
   "indicators": [],
   "normatives": [],
@@ -512,10 +512,10 @@
   "D_OPEN": "04.10.2006",
   "MFO": "380441",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 2275225,
-  "liabilities": 1776408,
-  "capitaltotal": 450837,
-  "profittotal": -7759
+  "assetstotal": [2328564,1886940,2275225],
+  "liabilities": [1834055,1379069,1776408],
+  "capitaltotal": [466024,467264,450837],
+  "profittotal": [18748,1240,-7759]
 }, {
   "indicators": [],
   "normatives": [],
@@ -528,10 +528,10 @@
   "D_OPEN": "29.11.2007",
   "MFO": "380526",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 7654343,
-  "liabilities": 6549262,
-  "capitaltotal": 647340,
-  "profittotal": 18060
+  "assetstotal": [9109869,6742806,7654343],
+  "liabilities": [8219892,5748583,6549262],
+  "capitaltotal": [629280,630329,647340],
+  "profittotal": [100594,1049,18060]
 }, {
   "indicators": [
 
@@ -549,10 +549,10 @@
   "MFO": "300528",
   "group": "Банки іноземних банківських груп",
   "SVB": "Системно важливі банки",
-  "assetstotal": 100416887,
-  "liabilities": 79374870,
-  "capitaltotal": 11630667,
-  "profittotal": 597105
+  "assetstotal": [73425468,80400877,100416887],
+  "liabilities": [58802209,62973498,79374870],
+  "capitaltotal": [11060381,10188034,11630667],
+  "profittotal": [2745111,-783063,597105]
 }, {
   "indicators": [],
   "normatives": [
@@ -567,10 +567,10 @@
   "D_OPEN": "07.07.1993",
   "MFO": "305749",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 21299395,
-  "liabilities": 17691974,
-  "capitaltotal": 1685446,
-  "profittotal": 6615
+  "assetstotal": [23562199,25508921,21299395],
+  "liabilities": [18598246,19703666,17691974],
+  "capitaltotal": [1792838,2130780,1685446],
+  "profittotal": [566269,383033,6615]
 }, {
   "indicators": [],
   "normatives": [
@@ -585,10 +585,10 @@
   "D_OPEN": "28.12.2000",
   "MFO": "320984",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 36552409,
-  "liabilities": 30660353,
-  "capitaltotal": 2238664,
-  "profittotal": -1772507
+  "assetstotal": [32301758,33672420,36552409],
+  "liabilities": [27617557,28373639,30660353],
+  "capitaltotal": [4011172,3104188,2238664],
+  "profittotal": [765365,-906984,-1772507]
 }, {
   "indicators": [],
   "normatives": [],
@@ -602,10 +602,10 @@
   "MFO": "380418",
   "group": "Банки іноземних банківських груп",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 2363798,
-  "liabilities": 1621729,
-  "capitaltotal": 226979,
-  "profittotal": -247053
+  "assetstotal": [2762871,2557440,2363798],
+  "liabilities": [2074125,1778964,1621729],
+  "capitaltotal": [474033,532231,226979],
+  "profittotal": [107647,58198,-247053]
 },{
   "indicators": [
 
@@ -622,10 +622,10 @@
   "D_OPEN": "10.03.1992",
   "MFO": "300119",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 11195715,
-  "liabilities": 9129379,
-  "capitaltotal": 990063,
-  "profittotal": 76961
+  "assetstotal": [12004835,11568305,11195715],
+  "liabilities": [10570150,10024271,9129379],
+  "capitaltotal": [913102,872615,990063],
+  "profittotal": [331059,-40487,76961]
 }, {
   "indicators": [
 
@@ -640,10 +640,10 @@
   "MFO": "336310",
   "group": "Банки з приватним капіталом",
   "SPEC_OSCHAD": "Спеціалізовані ощадні банки ",
-  "assetstotal": 10184615,
-  "liabilities": 3754052,
-  "capitaltotal": 813479,
-  "profittotal": -649635
+  "assetstotal": [9951302,9820429,10184615],
+  "liabilities": [4610211,3968475,3754052],
+  "capitaltotal": [1463115,1535264,813479],
+  "profittotal": [581073,72149,-649635]
 }, {
   "indicators": [],
   "normatives": [],
@@ -656,10 +656,10 @@
   "D_OPEN": "28.08.2006",
   "MFO": "380366",
   "group": "Банки іноземних банківських груп",
-  "assetstotal": 1174594,
-  "liabilities": 676057,
-  "capitaltotal": 342853,
-  "profittotal": -84711
+  "assetstotal": [1276155,843472,1174594],
+  "liabilities": [786992,335202,676057],
+  "capitaltotal": [430862,346992,342853],
+  "profittotal": [41625,-80188,-84711]
 }, {
   "indicators": [],
   "normatives": [],
@@ -672,8 +672,8 @@
   "D_OPEN": "11.03.2008",
   "MFO": "380582",
   "group": "Банки з приватним капіталом",
-  "assetstotal": 7013805,
-  "liabilities": 5889266,
-  "capitaltotal": 447361,
-  "profittotal": 7017
+  "assetstotal": [6408047,6777133,7013805],
+  "liabilities": [4962165,5100447,5889266],
+  "capitaltotal": [437903,425248,447361],
+  "profittotal": [25390,-12655,7017]
 }]

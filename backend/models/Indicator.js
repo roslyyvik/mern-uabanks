@@ -21,7 +21,8 @@ const IndicatorSchema = new mongoose.Schema({
     D2020_10_01: {type: Number, default: 0},
     D2021_01_01: {type: Number, default: 0},
     D2022_01_01: {type: Number, default: 0},
-    D2022_07_01: {type: Number, default: 0}
+    D2022_07_01: {type: Number, default: 0},
+    D2023_01_01: {type: Number, default: 0}
 })
 
 module.exports = mongoose.model('Indicator', IndicatorSchema) 

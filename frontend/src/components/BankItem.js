@@ -69,21 +69,21 @@ const bankItemTableChartProfit = bankItemChart(profitTable)
         </thead>
         <tbody>
         <tr>
-            <td data-th="Дата">2021/01</td>
+            <td data-th="Дата">2022/01</td>
             <td data-th="АКТИВИ">{moneyFormatter(assetstotal[0])}</td>
             <td data-th="ЗОБОВ`ЯЗАННЯ">{moneyFormatter(liabilities[0])}</td>
             <td data-th="КАПІТАЛ">{moneyFormatter(capitaltotal[0])}</td>
             <td data-th="ПРИБУТОК">{moneyFormatter(profittotal[0])}</td>
           </tr>
           <tr>
-            <td data-th="Дата">2022/01</td>
+            <td data-th="Дата">2022/07</td>
             <td data-th="АКТИВИ">{moneyFormatter(assetstotal[1])}</td>
             <td data-th="ЗОБОВ`ЯЗАННЯ">{moneyFormatter(liabilities[1])}</td>
             <td data-th="КАПІТАЛ">{moneyFormatter(capitaltotal[1])}</td>
             <td data-th="ПРИБУТОК">{moneyFormatter(profittotal[1])}</td>
           </tr>
           <tr>
-            <td data-th="Дата">2022/07</td>
+            <td data-th="Дата">2023/01</td>
             <td data-th="АКТИВИ" className={assetstotal[2] <= assetstotal[1] ? 'danger' : 'success'}>{moneyFormatter(assetstotal[2])}</td>
             <td data-th="ЗОБОВ`ЯЗАННЯ" className={liabilities[2] <= liabilities[1] ? 'danger' : 'success'}>{moneyFormatter(liabilities[2])}</td>
             <td data-th="КАПІТАЛ" className={capitaltotal[2] <= capitaltotal[1] ? 'danger' : 'success'}>{moneyFormatter(capitaltotal[2])}</td>
