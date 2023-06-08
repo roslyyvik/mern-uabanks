@@ -56,13 +56,13 @@ const [ filterParam, setFilterParam ] = useState('All')
   return (
     <main>
       <SEO
-        title='Банки України | Фінансовий Стан'
+        title='Банки України | Показники фінансової діяльності'
         description="Динаміка зміни АКТИВІВ, ЗОБОВ'ЯЗАНЬ, КАПІТАЛУ ТА ПРИБУТКУ банків України в розрізі окремого банку. Можливість аналізу у групах, сортування по показниках.Відгуки щодо фінансового стану окремого банку України."
         name=""
         type=""
       />
     <div className='section-title'>
-      <h1>{searchLength.length === 0 ? <Alert /> : `Кількість банківських установ:${searchLength.length}`}</h1>
+      <h1>{searchLength.length === 0 ? <Alert /> : `Банки України: ${searchLength.length}`}</h1>
     </div>
     <section className='input-section'>
       <MyInput

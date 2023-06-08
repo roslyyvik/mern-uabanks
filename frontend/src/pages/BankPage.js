@@ -93,7 +93,7 @@ const BankPage = () => {
     return (
       <main>
         <SEO
-        title={`${brand} | Фінансовий Стан`}
+        title={`${brand} | Показники фінансової діяльності`}
         description="Динаміка зміни АКТИВІВ, ЗОБОВ'ЯЗАНЬ, КАПІТАЛУ ТА ПРИБУТКУ банків України в розрізі окремого банку. Можливість аналізу у групах, сортування по показниках.Відгуки щодо фінансового стану окремого банку України."
         name=""
         type=""
@@ -101,7 +101,9 @@ const BankPage = () => {
         <Link to='/'>
         <button  className='btn btn-details'><FaAngleDoubleLeft/> back home</button>
         </Link>
-        <h2>Установа: {brand}</h2>
+        <h1>{brand}<br/>
+        <small>Показники фінансової діяльності</small>
+        </h1>
         <ul className='single-bank-container'>
           <li>МФО: {mfo}</li>
           <li>КОД ЕДРПОУ: {kod}</li>
