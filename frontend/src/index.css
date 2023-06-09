@@ -590,7 +590,7 @@ Navbar
 .followers td::before {
   content: attr(data-th) ": ";
   font-weight: bold;
-  width: 120px;
+  width: 135px;
   display: inline-block;
   margin-right: 1rem;
   /* color: #000; */
